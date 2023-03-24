@@ -138,8 +138,29 @@
 }
 
 /* Exercise 12 */
+.ex-12-button:hover .ex-12-top-white {
+    animation-name: move-right;
+    animation-duration: 2s;
+} 
 
+.ex-12-button:hover .ex-12-bottom-white {
+    animation-name: move-left;
+    animation-duration: 2s;
+} 
 
+@keyframes move-right {
+
+    80% {
+        left: 60%;
+    }
+}
+
+@keyframes move-left {
+
+    80% {
+        right: 60%;
+    }
+}
 
 /* Exercise 13 */
 
