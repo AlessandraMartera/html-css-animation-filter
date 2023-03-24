@@ -55,17 +55,24 @@
 }
 
 /* Exercise 6 */
-.ex-5-square {
+.col-xs-12 .ex-6-img {
     transition: all 1s linear;
 }
 
-.ex-5-square:hover {
-    width: 100px;
-    height: 100px;
+.col-xs-12 .ex-6-img:hover {
+    filter: grayscale(50%);
 }
 
 
 /* Exercise 7 */
+.col-xs-12 .ex-7-img {
+    transition: all 5s linear;
+}
+
+.col-xs-12 .ex-7-img:hover {
+    filter: blur(5px) invert(75%);
+}
+
 
 
 
