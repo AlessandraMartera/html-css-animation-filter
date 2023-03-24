@@ -98,21 +98,20 @@
 
 /* Exercise 10 */
 .ex-10-icon {
-    animation-name: loading;
+    animation-name: ruota;
     animation-duration: 2s;
     animation-iteration-count: infinite;
-
+    animation-direction: reverse;
+    animation-timing-function: linear;
 }
 
-@keyframes loading  {
-    0% {
-        transform: rotate(0deg);
-    }
+@keyframes ruota  {
 
-    100% {
+   100% {
         transform: rotate(365deg);
-    }
-}
+    } 
+
+} 
 
 
 /* Exercise 11 */
